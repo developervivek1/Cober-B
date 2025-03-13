@@ -1,0 +1,2239 @@
+/* ######################## */
+/* Note: index.html & main-index.html have css file only landing.css & landing-responsive.css */
+/* Landing pages hav'nt any dependencies on any other style sheet instead landing.css & landing-responsive.css */
+/* ######################## */
+
+
+.bg-dark-blue {
+    background-color: #223A74;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1900px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1650px;
+    }
+}
+
+header.top-header {
+    width: 100%;
+    height: 62.82px;
+    background-color: #223A74;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.top-header .mail-sec {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-header .cover-sec {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.top-header .phone-sec {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.footer-bottom {
+    height: 50px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+}
+
+.nav-link-items {
+    gap: 1.2rem;
+    margin-left: 1rem;
+}
+
+.nav-link-items .nav-item .nav-link {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #232323;
+}
+
+.nav-search input {
+    min-width: 380px;
+    height: 43.97px;
+    padding: 4px 8px 4px 40px;
+    border-radius: 152px;
+    border-width: 1px;
+    border-color: #616888;
+    background-color: transparent;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #616888;
+}
+
+.nav-search input:focus {
+    background-color: transparent;
+}
+
+.notification .badge {
+    background: #FF5252;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.main-nav {
+    padding: 1rem 0;
+}
+
+.main-nav .btn.login-btn {
+    min-width: 119px;
+    height: 47.66px;
+    background-color: #223A74;
+    font-family: Roboto;
+    font-size: 19.89px;
+    font-weight: 600;
+    line-height: 23.31px;
+    border-radius: 152px;
+    color: #fff;
+}
+
+.select-lang {
+    font-family: Roboto;
+    font-size: 19.6px;
+    font-weight: 600;
+    line-height: 22.96px;
+    text-align: left;
+    color: #232323;
+}
+
+select:focus-visible {
+    outline: none;
+}
+
+/* .bottom-header{
+    position: sticky;
+    top: 0;
+    transition: background-color 0.5s ease;
+} */
+
+/* .bottom-header.scrolled {
+    background: conic-gradient(from 162.01deg at 61.59% -57.51%, #F9FBF5 0deg, #FFD9C5 79.4deg, #FAFAFA 124.19deg, #EFE0D5 165.25deg, #FFD9C5 316.3deg, #F9FBF5 360deg);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+} */
+
+.workmen-compensation-sec {
+    background: conic-gradient(from 210.01deg at 60.59% -57.51%, #F9FBF5 0deg, #FFD9C5 79.4deg, #FAFAFA 124.19deg, #EFE0D5 165.25deg, #FFD9C5 316.3deg, #F9FBF5 360deg);
+}
+
+.workmen-contents-sec {
+    padding: 3rem 0;
+}
+
+.workmen-compensation-sec .quote-title {
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 93.75px;
+    text-align: center;
+}
+
+.workmen-compensation-sec .quote-title span {
+    background: linear-gradient(97.26deg, #FF9F35 32.72%, #E14956 79.33%, #A53FCE 105.09%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.workmen-compensation-sec .quote-para {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.81px;
+    text-align: center;
+    color: #232323;
+}
+
+.hero-form-sec .nav-pills .nav-link.active {
+    background-color: transparent;
+    color: #232323;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    /* line-height: 28.13px; */
+    text-align: left;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%) 2;
+    border-radius: 0px;
+    /* Optional: to make the corners rounded */
+
+}
+
+.hero-form-sec .nav-pills .nav-link {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    /* line-height: 23.44px; */
+    text-align: left;
+    color: #232323;
+}
+
+.hero-form-sec {
+    background-color: white;
+    padding: 24px 32px;
+    border-radius: 15px;
+    border: 1.5px solid transparent;
+    /* Set the border color to transparent */
+    background-clip: padding-box;
+    /* Ensures the background gradient doesn't bleed into the border */
+    background-image: linear-gradient(white, white), linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+    background-origin: border-box;
+    /* Ensures the gradient aligns with the border */
+    background-clip: padding-box, border-box;
+    /* Controls where the background colors apply */
+    max-width: 616px;
+    margin: 3.5rem auto;
+    min-height: 418px;
+}
+
+.form-sec label {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+.form-sec input {
+    max-width: 552px;
+    height: 53px;
+    padding: 16px 12px 16px 12px;
+    border-radius: 10px;
+    border: 1px solid #0000004D;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+}
+
+.form-sec button.btn-dark {
+    max-width: 552px;
+    height: 58px;
+    padding: 16px 12px 16px 12px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.78px;
+    text-align: center;
+    background-color: #223A74 !important;
+}
+
+.what-workmen-sec {
+    padding: 6rem 0;
+    background-color: #fff;
+}
+
+.what-workmen-sec h1 {
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 53.91px;
+    text-align: center;
+    color: #223A74;
+}
+
+.what-workmen-sec p {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #616888;
+    margin-bottom: 0;
+    margin-top: 1.5rem;
+}
+
+.workmen-cover-sec {
+    padding: 5rem 0;
+    background: linear-gradient(105.4deg, rgba(249, 251, 245, 0.6) -17.97%, rgba(201, 239, 252, 0.6) 32.49%, rgba(252, 218, 233, 0.6) 80.01%);
+}
+
+.workmen-cover-sec .title {
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 60.94px;
+    text-align: center;
+    color: #223A74;
+    margin-bottom: 4rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.workmen-cover-sec .card-sec {
+    /* border-radius: 15px;
+    --border-width: 1px;
+    border: 1.5px solid transparent; 
+    background-clip: padding-box; 
+    background-image: linear-gradient(white 0%, white 0%), linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+    background-origin: border-box; 
+    background-clip: padding-box, border-box; 
+    */
+    max-width: 298px;
+    /* min-height: 221px; */
+    padding: 20px;
+    position: relative;
+    /* background-size: 100% 2px; */
+}
+
+.workmen-cover-sec .card-sec::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    /* Matching the div's border-radius */
+    padding: 2px;
+    /* Adjust thickness of border */
+    background: linear-gradient(90deg, #EFA94A 50%, #FF5E63 100%);
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    z-index: 0;
+    border-width: 2px;
+}
+
+.workmen-card {
+    max-width: 1149px;
+    margin: 3.5rem auto;
+}
+
+.workmen-card .workmen-flex {
+    gap: 4.5rem;
+}
+
+.workmen-cover-sec .card-title {
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25.78px;
+    text-align: left;
+    background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.workmen-cover-sec p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    color: #223A74;
+}
+
+/* faq */
+.accordion-button:not(.collapsed)::after {
+    background: url(../images/workmen-landing/plus-circle.svg);
+    background-size: cover;
+    transform: rotate(45deg);
+    content: "";
+    width: 32px;
+    height: 32px;
+}
+
+.accordion-button.collapsed::after {
+    background: url(../images/workmen-landing/plus-circle.svg);
+    background-size: cover;
+    transform: rotate(0deg);
+    content: "";
+    width: 32px;
+    height: 32px;
+}
+
+.faq-sec {
+    padding: 5.5rem 0;
+    max-width: 1476px;
+    margin: auto;
+}
+
+.faq-sec .title {
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 60.94px;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #223A74;
+}
+
+.faq-accordion {
+    margin-top: 4rem;
+}
+
+.faq-accordion .accordion-button {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32.81px;
+    text-align: left;
+    color: #223A74;
+    min-height: 99px;
+    border-radius: 10px;
+    border: 1px;
+    background-color: transparent;
+}
+
+/*  */
+.accordion-button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.faq-accordion .accordion .accordion-item {
+    background: linear-gradient(105.4deg, rgba(249, 251, 245, 0.2) 0.54%, rgba(201, 239, 252, 0.2) 51%, rgba(252, 218, 233, 0.2) 98.52%);
+
+}
+
+.faq-accordion .accordion-body {
+    padding-top: 0px;
+}
+
+.faq-accordion .accordion-body p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+    color: #616888;
+}
+
+/* end */
+
+/* blog section start */
+.blog-sec {
+    padding: 3rem 0;
+    padding-bottom: 5rem;
+}
+
+.blog-sec .title {
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    color: #223A74;
+}
+
+.blog-sec p.description {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: center;
+    color: #666666;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.blog-area h6 {
+    margin-top: 1rem;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #223A74;
+}
+
+.blog-area p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #616888;
+}
+
+.blog-area a {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #223A74;
+}
+
+.btn.btn-view-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.5s;
+    width: 191px;
+    height: 48px;
+    border-radius: 130px;
+    border: 1px solid var(--Color, #223A74);
+    color: #232323;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: center;
+}
+
+/* end */
+
+/* footer main */
+footer .footer-main {
+    background: linear-gradient(93.81deg, rgba(255, 159, 53, 0.3) 28.56%, rgba(225, 73, 86, 0.3) 102.28%, rgba(165, 63, 206, 0.3) 114.48%);
+    padding: 5rem -0
+}
+
+.footer-links {
+    padding-top: 2.5rem;
+}
+
+.footer-main .disclaimer-para {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #616888;
+    margin: auto;
+    margin-top: 5rem;
+    max-width: 1258px;
+}
+
+.footer-links h6 {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 33.87px;
+    text-align: left;
+    color: #232323;
+}
+
+.footer-links ul li {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26.05px;
+    text-align: left;
+    color: #616888;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #616888;
+}
+
+.footer-links h6 a {
+    color: #232323;
+}
+
+.links ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.links ul li {
+    padding: 0.5rem 0;
+}
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ################# MAIN LANDING PAGE CSS START ################## */
+
+
+
+
+@media (min-width: 1900px) {
+    .main-landing-page {
+
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+            max-width: 1730px;
+        }
+    }
+}
+
+
+.bottom-header.main-landing-page-header {
+    padding-top: 1rem;
+}
+
+.workmen-compensation-sec.main-landing-page {
+    padding-bottom: 26rem;
+    /* background: conic-gradient(from 162.01deg at 61.59% -57.51%, #F9FBF5 0deg, #FFD9C5 79.4deg, #FAFAFA 124.19deg, #EFE0D5 165.25deg, #FFD9C5 316.3deg, #F9FBF5 360deg); */
+    /* background: linear-gradient(105.4deg, rgba(249, 251, 245, 0.6) -17.97%, rgba(201, 239, 252, 0.6) 32.49%, #FFD9C5 80.01%); */
+    background: linear-gradient(59.4deg, #CEE0F3 6.03%, rgba(201, 239, 252, 0.6) 13.49%, #FFD9C5 68.01%);
+
+}
+
+.bottom-header.main-landing-page-header .nav-link-items .nav-item .nav-link {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cover-business-sec {
+    padding-top: 4rem;
+    padding-bottom: 10rem;
+}
+
+.cover-business-sec h1.title-dark {
+    font-family: Roboto;
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 107.81px;
+    text-align: left;
+    color: #223A74;
+}
+
+.cover-business-sec .hero-titles {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+}
+
+.cover-business-sec div h2.title-color {
+    font-family: Roboto;
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 107.81px;
+    text-align: left;
+    background: linear-gradient(97.26deg, #FF9F35 32.72%, #E14956 79.33%, #A53FCE 105.09%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 43%;
+}
+
+.explore-insurance-btns button.btn-dark {
+    min-width: 223px;
+    height: 61px;
+    padding: 26.26px;
+    border-radius: 162.7px;
+    background-color: #223A74;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 6px;
+    text-align: center;
+    color: #fff;
+}
+
+.explore-insurance-btns a {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+}
+
+.illustration-img img {
+    width: 695px;
+    height: 581px;
+    /* bottom: -5px !important; */
+    object-fit: contain;
+}
+
+.illustration-img img {
+    .img-back {
+        bottom: -51px !important;
+    }
+}
+
+.illustration-img .img-front {
+    z-index: 99;
+}
+
+.corporate-insurance-sec {
+    box-shadow: 0px 4.28px 47.1px 3.21px #A6AEBE12;
+    padding: 2rem;
+    /* margin-top: 8rem; */
+}
+
+.corporate-insurance-sec h6 {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+}
+
+.insurance-card-sec {
+    padding: 3rem 1rem;
+}
+
+.insurance-card-sec .card-item p {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32.87px;
+    margin-top: 0.5rem;
+}
+
+.insurance-card-sec .card-item .card-more {
+    width: 187px;
+    height: 118px;
+    border-left: 2px solid;
+    border-image: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%) 2;
+}
+
+.insurance-card-sec .card-item {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.img-hover {
+    display: flex;
+    justify-content: center;
+}
+
+.card-item {
+    width: 15%;
+}
+
+.insurance-card-sec .card-item p {
+    line-height: normal;
+}
+
+.insurance-card-sec .card-item a {
+    line-height: normal;
+}
+
+.insurance-card-sec {
+
+    .card-item:hover {
+        transition: all 0.5s;
+
+        div.img-hover {
+            position: relative;
+            transition: all 0.5s;
+            display: flex;
+
+            img:first-child {
+                display: block;
+                /* position: absolute; */
+                transition: all 0.9s;
+            }
+
+            img:last-child {
+                display: block !important;
+                position: absolute;
+                top: 50%;
+                right: 50%;
+                width: 130px;
+                transform: translate(50%, -50%);
+                height: 122px;
+                transition: all 0.5s;
+            }
+
+            img {
+                transition: all 0.5s;
+            }
+        }
+
+    }
+
+}
+
+.insurance-card-sec .card-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.insurance-card-sec .card-item .card-more h5 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+    color: #000;
+}
+
+.insurance-card-sec .card-items {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.work-coverage {
+    padding: 2rem 0;
+}
+
+.work-coverage p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #616888;
+}
+
+.work-coverage ol.check-list {
+    list-style-type: none;
+    padding: 0;
+    width: 50%;
+}
+
+.work-coverage ol li {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    text-align: left;
+    padding: 0.4rem 0;
+    color: #616888;
+}
+
+.work-coverage h2 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    text-align: left;
+    color: #000;
+    margin: 2rem 0;
+}
+
+.btn-grad-color {
+    width: 223px;
+    height: 59.99px;
+    padding: 31.99px;
+    border-radius: 198.22px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 0px;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+    margin-top: 2rem;
+}
+
+.insurance-card-sec {
+    padding-bottom: 0 !important;
+}
+
+.insurance-partner-sec {
+    padding: 3rem 0;
+    margin-top: 30rem;
+    padding-bottom: 5rem;
+}
+
+.insurance-partner-sec h1.title {
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 60.94px;
+    text-align: center;
+    color: #000;
+}
+
+.curated-business {
+    padding: 4rem 0;
+    background: linear-gradient(105.4deg, #ECFBFF 0.54%, #FFFFFF 51%, #F1FCFF 98.52%);
+    border-radius: 15px;
+
+    border: 1.5px solid transparent;
+    background-clip: padding-box;
+    background-image: linear-gradient(105.4deg, #ECFBFF 0.54%, #FFFFFF 51%, #F1FCFF 98.52%), linear-gradient(101.07deg, #D2F2FF 0%, #DDF5FF 98.85%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+}
+
+.curated-business h1.title {
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 78px;
+    text-align: center;
+    color: #000;
+}
+
+.curated-business-card {
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.curated-business-card h5 {
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: left;
+    color: #232323;
+    margin-top: 1.5rem;
+}
+
+.curated-business-card p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #616888;
+}
+
+.card-style {
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, #B93675 0%, #5DB5E2 100%);
+    /* width: Fill (504.5px)px;
+    height: Hug (559.88px)px; */
+    padding: 42.11px;
+    border-radius: 16px;
+    border: 1px;
+
+    border: 1.5px solid transparent;
+    background-clip: padding-box;
+    background-image: linear-gradient(105.4deg, #FFFFFF 51%, #F1FCFF 98.52%), linear-gradient(264.44deg, #D9D9D9 42.2%, #FF7E36 84.09%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    transition: all 0.5s;
+}
+
+.card-style .btn.btn-dark-quote {
+    height: 59.99px;
+    border-radius: 198.22px;
+    background-color: #223A74;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.13px;
+    text-align: center;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.card-style .btn.btn-outline-quote {
+    height: 59.99px;
+    border-radius: 198.22px;
+    background-color: #fff;
+    color: #232323;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.13px;
+    text-align: center;
+    width: 100%;
+    /* border-style */
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    background-image: linear-gradient(105.4deg, #FFFFFF 51%, #F1FCFF 98.52%), linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    transition: all 0.5s;
+}
+
+.curated-business-card div.row {
+    --bs-gutter-x: 5rem;
+    --bs-gutter-y: 4.5rem;
+}
+
+.card-style:hover {
+    border: 1.5px solid transparent;
+    background-clip: padding-box;
+    background-image: linear-gradient(105.4deg, #FFFFFF 51%, #F1FCFF 98.52%), linear-gradient(180deg, #B93675 0%, #5DB5E2 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+}
+
+.btn.btn-outline-quote:hover {
+    background-color: #223A74;
+    color: #fff;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    background-image: linear-gradient(105.4deg, #FFFFFF 51%, #F1FCFF 98.52%), linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-color: #223A74;
+    background-image: none;
+    box-sizing: border-box;
+}
+
+.we-best-choice-sec {
+    padding: 5.5rem 0;
+}
+
+.choice-description {
+    max-width: 445px;
+}
+
+.we-best-choice-sec .choice-description h2 {
+    font-family: Roboto;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 60.94px;
+    text-align: left;
+    color: #232323;
+}
+
+.we-best-choice-sec .choice-description p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: #616888;
+    margin: 2.5rem 0;
+}
+
+.we-best-choice-sec .choice-card {
+    max-width: 432px;
+    min-height: 369px;
+    border-radius: 12px;
+    padding: 2rem;
+    background: linear-gradient(105.4deg, rgba(249, 251, 245, 0.7) 0.54%, rgba(201, 239, 252, 0.7) 51%, rgba(252, 218, 233, 0.7) 98.52%);
+
+    h5 {
+        font-family: Roboto;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: left;
+        color: #232323;
+        margin: 1rem 0;
+    }
+
+    p {
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32.8px;
+        text-align: left;
+        color: #616888;
+        margin-bottom: 0;
+    }
+}
+
+.services-type-card {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(105.4deg, #F9FBF5 0.54%, #C9EFFC 51%, #FCDAE9 98.52%);
+
+    .row {
+        --bs-gutter-x: 2.5rem;
+    }
+
+    .service-card {
+        background: linear-gradient(90deg, #9A4CE2 0%, #FD6587 100%);
+        max-width: 546.16px;
+        min-height: 194px;
+        border-radius: 12px;
+        padding: 2rem;
+
+        h2 {
+            font-family: Roboto;
+            font-size: 43px;
+            font-weight: 500;
+            line-height: 50.39px;
+            text-align: left;
+            color: #fff;
+        }
+
+        p {
+            font-family: Roboto;
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 33px;
+            color: #fff;
+            margin-bottom: 0;
+        }
+
+        div {
+            img {
+                top: -52px;
+                right: 33px;
+                width: 154px;
+                height: 152px;
+            }
+        }
+    }
+
+    .service-card.service-2 {
+        background: linear-gradient(180deg, #7080FA 0%, #9F59D6 100%);
+
+        div {
+            img {
+                top: -52px;
+                right: 26px;
+                width: 166px;
+                height: 170px;
+            }
+        }
+    }
+
+    .service-card.service-3 {
+        background: linear-gradient(180deg, #F37E8A 0%, #C7399E 100%);
+
+        div {
+            img {
+                top: -62px;
+                right: 10px;
+                width: 237px;
+                height: 224px;
+            }
+        }
+    }
+}
+
+.corporate-individual-sec {
+    padding: 9rem 0;
+    background-color: #fff;
+
+    .card-pill-sec {
+        margin-top: 2.5rem;
+        background-color: #FFFAF2;
+        padding: 3.5rem 0;
+        border-radius: 25px;
+    }
+
+    h2.title {
+        font-family: Roboto;
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 46px;
+        text-align: center;
+        color: #232323;
+    }
+
+    .corporate-pills {
+        gap: 1rem;
+        padding: 2rem 0;
+        padding-top: 0;
+
+        .pill-btn.active {
+            min-width: 208px;
+            min-height: 57px;
+            padding: 8px 20px 8px 20px;
+            border-radius: 154px;
+            color: #fff;
+            background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+            font-family: Roboto;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 40.23px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .pill-btn {
+            min-width: 208px;
+            min-height: 57px;
+            padding: 8px 20px 8px 20px;
+            border-radius: 154px;
+            font-family: Roboto;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 40.23px;
+            text-align: center;
+            color: #232323;
+            text-decoration: none;
+            transition: all 0.3s;
+            background: linear-gradient(90deg, rgba(239, 169, 74, 0.2) 0%, rgba(255, 94, 99, 0.2) 100%);
+        }
+
+        .pill-btn:hover {
+            transition: all 0.3s;
+            color: #fff;
+            background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+        }
+    }
+
+    .corporate-individual-card {
+        gap: 3.5rem;
+
+        .card-1 {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-width: 238px;
+            max-width: 238px;
+            min-height: 238px;
+            padding: 22px;
+            border-radius: 14.09px;
+            border: 3px solid;
+            border-image-source: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+
+            background-image: linear-gradient(#FFFAF2 100%, #FFFAF2 100%), linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+
+            p {
+                font-family: Roboto;
+                font-size: 28px;
+                font-weight: 500;
+                line-height: 40.71px;
+                text-align: center;
+                color: #232323;
+                margin: 1rem 0;
+            }
+        }
+    }
+
+    .individual-sec {
+        .card-pill-sec {
+            background-color: #F5F8FD;
+        }
+
+        .corporate-individual-card {
+
+            .card-1 {
+                border: 3px solid #223A74;
+                background-image: none;
+            }
+        }
+    }
+}
+
+.best-solution-sec {
+    background: linear-gradient(93.47deg, rgba(255, 223, 183, 0.7) 69.18%, rgba(255, 223, 183, 0.7) 69.18%, rgba(255, 223, 183, 0.7) 69.18%);
+    padding: 4.5rem 0;
+
+    .best-solution-body {
+        min-height: 900px;
+        z-index: 1;
+
+        .curved-line {
+            position: absolute;
+            top: 37%;
+            left: 46%;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .title-sec {
+        max-width: 910px;
+
+        h1.title {
+            font-family: Roboto;
+            font-size: 52px;
+            font-weight: 500;
+            line-height: 55.16px;
+            text-align: left;
+            color: #232323;
+        }
+
+        p {
+            margin-top: 1rem;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 36px;
+            text-align: left;
+            color: #616888;
+        }
+    }
+
+    .sol-body {
+        max-width: 290px;
+
+        h2 {
+            font-family: Roboto;
+            font-size: 78px;
+            font-weight: 500;
+            line-height: 60px;
+            text-align: left;
+            color: #223A74;
+        }
+
+        h5 {
+            font-family: Roboto;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 35px;
+            text-align: left;
+            color: #232323;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+            color: #616888;
+        }
+    }
+
+    /* .solution-1::after{
+            content: "";
+            position: absolute;
+            z-index: 1;
+            background-image: url(../images/main-landing-page/curved-line.svg);  
+        } */
+    /* .solution-1{
+            position: absolute;
+            bottom:0;
+        } */
+}
+
+.manage-wallet-sec {
+    padding: 7rem 0;
+
+    h1.title {
+        font-family: Roboto;
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 78px;
+        text-align: center;
+        color: #232323;
+    }
+
+    p.para {
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 30.47px;
+        text-align: center;
+        color: #616888;
+    }
+
+    .manage-wallet-card {
+        margin: 4.5rem auto;
+        max-width: 1480px;
+
+        .manage-card-1 {
+            width: 444.93px;
+            min-height: 385.22px;
+            border-radius: 18.73px;
+            border: 1.17px;
+            opacity: 0.8px;
+            padding: 2.5rem 2.5rem;
+            background: linear-gradient(112.15deg, rgba(255, 159, 53, 0.3) 9.56%, rgba(225, 73, 86, 0.3) 64.05%, rgba(165, 63, 206, 0.3) 86.72%);
+
+            border: 1.17px solid;
+            border-image-source: linear-gradient(180deg, #FF9F35 0%, #E14956 64.4%, #A53FCE 100%);
+            /*  */
+            background-clip: padding-box;
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+
+            /* border: 1.5px solid transparent;
+            background-clip: padding-box;
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+            background-image: linear-gradient(112.15deg, rgba(255, 159, 53, 0.3) 9.56%, rgba(225, 73, 86, 0.3) 64.05%, rgba(165, 63, 206, 0.3) 86.72%); */
+
+            h5 {
+                font-family: Roboto;
+                font-size: 34px;
+                font-weight: 500;
+                line-height: 51px;
+                text-align: center;
+                color: #232323;
+                margin: 1rem 0;
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 27px;
+                text-align: center;
+                color: #000000;
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.testimonial-sec {
+    padding: 5rem 0;
+
+    .container-cus {
+        width: 100%;
+        padding-left: 8.5rem;
+    }
+
+    .testimonial-left-sec {
+        .group-img {
+            margin-left: 12px;
+
+            img {
+                margin-left: -12px;
+            }
+        }
+
+        h1 {
+            font-family: Roboto;
+            font-size: 52px;
+            font-weight: 600;
+            line-height: 78px;
+            text-align: left;
+            color: #232323;
+        }
+
+        h5 {
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+            color: #232323;
+        }
+
+        p {
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            text-align: left;
+            color: #232323;
+            margin-bottom: 0.6rem;
+        }
+
+        button.btn-outline {
+            min-width: 51px;
+            height: 43px;
+            padding: 16px;
+            border-radius: 152px;
+            border: 1px solid #232323;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 10.75px;
+            text-align: center;
+            color: #616888;
+        }
+
+        button.btn-outline-color {
+            min-width: 125px;
+            height: 43px;
+            padding: 16px;
+            border-radius: 152px;
+            border: 1.5px solid;
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+            border-image-source: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+            background-image: linear-gradient(105.4deg, #FFFFFF 51%, #F1FCFF 98.52%), linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 11.75px;
+            text-align: center;
+            color: #232323;
+
+        }
+
+    }
+
+    .overflow-hide::-webkit-scrollbar {
+        display: none;
+    }
+
+    .testimonial-slider-sec {
+        width: 122%;
+
+        .slide-1 {
+            h5 {
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 36px;
+                text-align: left;
+                color: #232323;
+                margin-top: 1rem;
+            }
+
+            h6 {
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                text-align: left;
+                color: #232323;
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 27px;
+                text-align: left;
+                color: #616888;
+            }
+        }
+    }
+}
+
+.trending-insurance-sec {
+    margin: 7rem 0;
+    margin-bottom: 9rem;
+
+    h1.title {
+        font-family: Roboto;
+        font-size: 52px;
+        font-weight: 600;
+        line-height: 78px;
+        text-align: left;
+        color: #232323;
+    }
+
+    .aspect-ratio-card {
+        /* max-width: 1204px; */
+        max-width: 84%;
+        column-gap: 3rem !important;
+
+        .product-1 {
+            padding: 36px 24px 36px 24px;
+            border-radius: 10px;
+
+            h2 {
+                font-family: Roboto;
+                font-size: 46px;
+                font-weight: 700;
+                line-height: 55.2px;
+                text-align: left;
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 30px;
+                text-align: left;
+                color: #616888;
+            }
+
+            h6 {
+                font-family: Roboto;
+                font-size: 22px;
+                font-weight: 500;
+                line-height: 33px;
+                text-align: left;
+                color: #232323;
+            }
+
+            a {
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 27px;
+                text-align: center;
+                color: #616888;
+                text-decoration: none;
+
+                img {
+                    margin-left: 7px;
+                }
+            }
+        }
+
+        .ratio-card-1 {
+            width: 279px;
+            height: 300px;
+            background-color: #F6E9E1;
+
+            h2 {
+                color: #FF7E36;
+            }
+        }
+
+        .ratio-card-2 {
+            width: 279px;
+            height: 400px;
+            background-color: #F5EEFE;
+
+            h2 {
+                color: #9D65E5;
+            }
+
+        }
+
+        .ratio-card-3 {
+            width: 279px;
+            height: 516px;
+            background-color: #D6F3FC;
+
+            h2 {
+                color: #29B4F0;
+            }
+        }
+
+        .ratio-card-4 {
+            width: 279px;
+            height: 600px;
+            background-color: #FFF3D7;
+
+            h2 {
+                color: #F2B020;
+            }
+        }
+    }
+
+
+}
+
+.get-in-touch {
+    background: linear-gradient(93.47deg, rgba(255, 223, 183, 0.7) 100%, rgba(255, 223, 183, 0.7) 69.18%, rgba(255, 255, 255, 0.7) 92.91%);
+    padding: 7rem 0;
+    padding-bottom: 9rem;
+    margin-bottom: 2rem;
+
+    h1.title {
+        font-family: Roboto;
+        font-size: 52px;
+        font-weight: 500;
+        line-height: 60.94px;
+        text-align: center;
+        color: #232323;
+    }
+
+    p.para {
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 30.47px;
+        text-align: center;
+        color: #616888;
+        padding-bottom: 5rem;
+    }
+
+    .get-in-touch-form {
+        border-right: 2px solid #616888;
+        max-width: 640.88px;
+        margin: auto;
+
+        .form-floating {
+            input {
+                max-width: 538.88px;
+                height: 58.79px;
+                padding: 14px 26px 14px 26px;
+                border-radius: 152px;
+                padding-bottom: 0px;
+                padding-left: 56px !important;
+            }
+
+            textarea {
+                border-bottom: 2px solid #616888;
+                border-radius: 0;
+                resize: none;
+                max-width: 538.88px;
+                padding-bottom: 0px;
+                padding-left: 56px !important;
+            }
+
+        }
+
+        button.btn.btn-dark-quote {
+            max-width: 542px;
+            height: 61px;
+            padding: 26.26px;
+            border-radius: 162.7px;
+            background-color: #223A74;
+            color: #fff;
+            font-family: Roboto;
+            font-size: 23.55px;
+            font-weight: 800;
+            line-height: 7.6px;
+            text-align: center;
+            margin-top: 1rem;
+        }
+    }
+
+    .right-card-desc {
+        h5 {
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 36px;
+            text-align: left;
+            color: #232323;
+        }
+
+        p {
+            font-family: Roboto;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+            text-align: left;
+            color: #616888;
+
+        }
+    }
+}
+
+/* button styles */
+.hover-border {
+    position: relative;
+}
+
+.hover-border::before {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 2px;
+    /* Height of the border */
+    width: 0;
+    background-color: #000;
+    /* Border color */
+    transition: width 0.3s ease;
+    /* Smooth increase */
+}
+
+.hover-border:hover::before {
+    width: 100%;
+    /* Full width on hover */
+}
+
+
+.btn.btn-dark,
+.btn-dark-quote,
+.login-btn,
+.btn-outline-color,
+.btn-grad-color {
+    position: relative;
+    z-index: 0;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    overflow: hidden;
+    /* padding: 20px !important; */
+    /* display: block; */
+}
+
+.btn.btn-dark:hover,
+.btn-dark-quote:hover,
+.login-btn:hover,
+.btn-outline-color:hover,
+.btn-grad-color:hover {
+    background-color: transparent;
+    /* text-shadow: nfour; */
+    border-radius: 126px;
+    border: 1px solid #FF5E63;
+    color: #fff !important;
+
+}
+
+.btn.btn-dark:hover:before,
+.btn-dark-quote:hover:before,
+.login-btn:hover:before,
+.btn-outline-color:hover:before,
+.btn-grad-color:hover:before {
+    right: 0%;
+    left: auto;
+    width: 100%;
+    border-radius: 126px;
+}
+
+.btn.btn-dark:before,
+.btn-dark-quote:before,
+.login-btn:before,
+.btn-outline-color:before,
+.btn-grad-color:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+    transition: width 0.4s cubic-bezier(0.42, 0, 0.58, 1) 0s;
+    border-radius: 126px;
+}
+
+
+
+.manage-card-1 {
+    & div.rounded-circle {
+        & a {
+            img {
+                transition: all 0.5s;
+            }
+        }
+    }
+
+    div.rounded-circle:hover {
+        & a {
+            img {
+                transition: all 0.5s;
+                scale: 1.1;
+            }
+        }
+    }
+}
+
+.corporate-sec {
+    .card-1 {
+        transition: all 0.5s;
+    }
+
+    .card-1:hover {
+        box-shadow: 2px 2px 30px rgba(239, 169, 74, 0.7),
+            /* Shadow in #EFA94A */
+            -2px -2px 30px rgba(255, 94, 99, 0.7);
+        /* Shadow in #FF5E63 */
+    }
+}
+
+.individual-sec {
+    .card-1 {
+        transition: all 0.5s;
+    }
+
+    .card-1:hover {
+        box-shadow: 2px 2px 20px rgba(34, 58, 116, 0.7),
+            -2px -2px 20px rgba(34, 58, 116, 0.7);
+        /* #223A74 shadow */
+    }
+}
+
+.social-network a:hover img {
+    width: 40px;
+    height: 40px;
+    rotate: 360deg;
+    transition: all 0.9s;
+}
+
+.choice-card {
+    transition: all 0.5s;
+}
+
+.choice-card:hover {
+    transition: all 0.5s;
+    box-shadow:
+        2px 2px 30px rgba(249, 251, 245, 0.7),
+        /* First shadow with rgba(249, 251, 245, 0.7) */
+        -2px 2px 30px rgba(201, 239, 252, 0.7),
+        /* Second shadow with rgba(201, 239, 252, 0.7) */
+        2px -2px 30px rgba(252, 218, 233, 0.7);
+    /* Third shadow with rgba(252, 218, 233, 0.7) */
+}
+
+/* buttons style end */
+
+/* #################  MAIN LANDING PAGE CSS END ################## */
+
+/* ################ No QUOTE PAGE CSS START  */
+.workmen-compensation-policy {
+    margin-top: 1rem;
+
+    .policy-bg {
+        background: linear-gradient(45deg, #F9FBF5 0%, #FFD9C5 100%);
+        /* background: conic-gradient(from 162.01deg at 61.59% -57.51%, #F9FBF5 0deg, #FFD9C5 79.4deg, #FAFAFA 124.19deg, #EFE0D5 165.25deg, #FFD9C5 316.3deg, #F9FBF5 360deg); */
+        padding: 2.5rem 0rem 0rem 2.5rem;
+        min-height: 670px;
+        border-radius: 20px;
+
+        .compensation-policy {
+            h1 {
+                font-family: Roboto;
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 56.25px;
+                text-align: left;
+                color: #0D0D0D;
+                margin-bottom: 1.5rem;
+            }
+
+            p {
+                font-family: Roboto;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 28.13px;
+                text-align: left;
+                color: #0D0D0D;
+            }
+
+            .tick-btns {
+                max-width: 90%;
+                flex-wrap: wrap;
+
+                .btn-tick-outline {
+                    min-width: 165.01px;
+                    height: 55.01px;
+                    padding: 12px 8px 12px 8px;
+                    border-radius: 10px;
+                    border: 1px;
+                    border: 1px solid #223A74;
+                    font-family: Roboto;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #232323;
+                }
+            }
+
+        }
+    }
+}
+
+.quick-quote-sec {
+    .quick-quote {
+        padding: 3.5rem;
+        max-width: 1476px;
+        margin: 6rem auto;
+        border-radius: 20px;
+        margin-bottom: 3rem;
+        background: linear-gradient(90deg, rgba(255, 223, 183, 0.7) 0%, rgba(255, 248, 239, 0.7) 100%);
+
+        /* background: linear-gradient(93.47deg, rgba(255, 223, 183, 0.7) 69.18%, rgba(255, 255, 255, 0.7) 75.91%,rgba(255, 223, 183, 0.7) 100.18%); */
+        h1 {
+            font-family: Roboto;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 46.88px;
+            text-align: left;
+            color: #000000;
+        }
+
+        p {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 18.75px;
+            text-align: left;
+            color: #000000;
+            margin-bottom: 0;
+        }
+
+    }
+}
+
+/* ################ NO QUOTE PAGE CSS END */
+
+/* custom dropdown css */
+.custom-dropdown {
+    max-width: 150px;
+
+    .custom-select-container {
+        position: relative;
+        width: 200px;
+    }
+
+    .custom-select {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .select-trigger {
+        background: #f0f0f0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .custom-options {
+        display: none;
+        position: absolute;
+        max-width: 150px;
+        display: none;
+        position: absolute;
+        top: 103%;
+        width: 100%;
+        left: -7px;
+        background-color: #FFFFFF;
+        border: 1px solid #ccc;
+        z-index: 10;
+    }
+
+    .custom-option {
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .arrow {
+        font-size: 12px;
+    }
+
+    .custom-select.active .custom-options {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.dropdown-menu {
+    transition: all 0.5s;
+    min-width: 250px;
+
+    .dropdown-item.nav-link {
+        transition: all 0.5s;
+    }
+
+    .dropdown-item.nav-link:hover {
+        background-color: #223A74;
+        color: #fff;
+        padding-left: 2rem !important;
+    }
+}
+
+.nav-item.dropdown {
+    position: relative;
+    z-index: 1;
+
+    .dropdown-menu::after {
+        content: "";
+        position: absolute;
+        top: -11px;
+        left: 50%;
+        z-index: 9;
+        background-image: url(../images/caret-up-fill.svg);
+        background-size: cover;
+        width: 16px;
+        height: 16px;
+    }
+}
+
+button.btn.btn-view-more:hover {
+    scale: 1.09;
+}
+
+
+.contact-us-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.contact-us-1 h2 {
+    color: var(--Font-sub-heading, #232323);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.contact-us-1 p {
+    color: #2D2D2D;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 72px;
+}
+
+.contact-us-1 img {
+    margin-top: auto;
+}
+
+.socialAdd {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.socialAdd img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.socialAdd p {
+    color: var(--Font-sub-heading, #232323);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+.Contactmap {
+    width: 100%;
+    height: 320px;
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
+
+.contactForm h2 {
+    color: var(--Font-sub-heading, #232323);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 60px;
+}
+
+.contactForm p {
+    color: var(--Font-sub-heading, #232323);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.maincontact {
+    gap: 100px;
+}
+
+.contactField {
+    margin-top: 24px;
+}
+
+.contactField label {
+    color: var(--Font-sub-heading, #232323);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.contactField input {
+    border-radius: 8px;
+    border: 0.5px solid var(--grey-logo, #A09F9F);
+    padding: 20px;
+    color: #A09F9F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+
+}
+
+.contactField select {
+    border-radius: 8px;
+    border: 0.5px solid var(--grey-logo, #A09F9F);
+    padding: 20px;
+    color: #A09F9F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+.contactField textarea {
+    border-radius: 8px;
+    border: 0.5px solid var(--grey-logo, #A09F9F);
+    padding: 20px;
+    color: #A09F9F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+
+}
+
+.contactBtn {
+    border-radius: 80px;
+    border: 1px solid rgba(154, 155, 184, 0.50);
+    background: #223A74;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 64px;
+    padding: 16px 76px;
+    margin-bottom: 100px;
+}
+
+.terms-n-cond-content .terms-n-cond-panel {
+    display: none;
+}
+
+.terms-n-cond-content .terms-n-cond-panel.active {
+    display: block;
+}
+
+
+
+/*custom dropdown css  */

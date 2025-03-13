@@ -1,0 +1,408 @@
+header{
+    .top-header{
+        nav{
+            height: 60px;
+        }
+    }
+}
+
+.container{
+    max-width: 90% !important;
+}
+
+.premium-card.premium-card-quote{
+    background: #FFFFFF !important;
+    padding: 0 !important;
+    border: 1.88px solid #E6DDDD;
+    .company-name-premium{
+        background: linear-gradient(166.25deg, rgba(249, 233, 213, 0.4) 2.27%, rgba(253, 215, 214, 0.49) 98.33%);
+        padding: 1.5rem 2.5rem 1rem 2.5rem !important;
+    }
+    .refrenece-quote-sec{
+        padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+        display: flex;
+        justify-content: start;
+        gap: 1.5rem;
+
+        p{
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #585D61;
+        }
+        h6{
+            font-family: Roboto;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #2D2D2DE5;
+            margin-top: 0.8rem;
+
+        }
+
+    }
+    .refrenece-quote-sec.border-right{
+        position: relative !important;
+    }
+    .refrenece-quote-sec.border-right::after{
+       content: "";
+       width: 1px;
+       height:40px ;
+       position: absolute;
+       background-color: #DBCBCB;
+       right: -6px;
+        background-color: #DBCBCB;
+        top: 30px;
+    }
+
+    .checked-sec{
+
+        padding: 1.5rem 0rem 1.5rem 0rem;
+        margin: 0 2.5rem 0rem 2.5rem;
+        border-top: 1.2px solid #DFD0D0;
+        border-bottom: 1.2px solid #DFD0D0
+    }
+    .manage-policy-sec{
+        padding: 2rem !important;
+        display: flex;
+        justify-content: end;
+        gap: 1rem;
+        button.back-to-home{
+            height: 49px;
+            gap: 10px;
+            border-radius: 50px;
+            padding-top: 12px;
+            padding-right: 16px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+            color: #fff;
+            border-width: 0;
+        }
+        button.manage-policy{
+            width: 138;
+            height: 48;
+            gap: 10px;
+            border-radius: 50px;
+            border-width: 1px;
+            padding-top: 12px;
+            padding-right: 16px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            border: 1px solid #223A74;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0px;
+            color: #223A74;
+            background-color: #FFFFFF;
+        }
+        button.download-policy{
+            width: 183;
+            height: 48;
+            gap: 10px;
+            border-radius: 60px;
+            padding-top: 12px;
+            padding-right: 16px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #fff;
+            background-color: #223A74;
+
+        }
+    }
+
+}
+.welcome-profile{
+    .hello-user{
+        padding: 1.8rem;
+        border: 1px solid #F0E6E6;
+        .member-date{
+            color: #223A74;
+        }
+    }
+    
+    .discover-insurance{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        a{
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            background-image: linear-gradient(to right, #EFA94A, #FF5E63);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: underline;
+            border-bottom: 1px solid #FF5E63;
+        }
+    }
+    h5{
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #223A74;
+    }
+    p{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #2D2D2D;
+        margin-top: 1rem;
+    }
+    .active-user  { 
+        border-top: 1px solid #DFD0D0;
+        border-bottom: 1px solid #DFD0D0;
+        h6{
+            font-family: Roboto;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #232323;
+            margin-bottom: 0;
+        }
+        button{
+            width: 76;
+            height: 26;
+            gap: 5px;
+            border-radius: 12px;
+            border-width: 1px;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 5px;
+            padding-left: 10px;
+            color: #158212;
+            border: 1px solid #83E281;
+            background-color: #F6FFF6;
+        }
+        
+    }
+    .quote-list-download{
+        p{
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #232323;
+        }
+    }
+    .need-help{
+        width: 452;
+        height: 117;
+        top: 429px;
+        justify-content: space-between;
+        padding-top: 28px;
+        padding-right: 38px;
+        padding-bottom: 28px;
+        padding-left: 38px;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        background: linear-gradient(166.25deg, rgba(249, 233, 213, 0.4) 2.27%, rgba(253, 215, 214, 0.49) 98.33%);
+
+
+        h2{
+            font-family: Roboto;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #000000;
+        }
+        p{
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #232323;
+        }
+        button{
+            width: 102;
+            height: 40;
+            gap: 10px;
+            border-radius: 50px;
+            border-width: 0.5px;
+            padding-top: 12px;
+            padding-right: 16px;
+            padding-bottom: 12px;
+            padding-left: 16px;
+            background-color: #FFFFFF;
+            border: 0.5px solid #223A74;
+            font-family: Roboto;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 0%;
+
+        }
+    }
+}
+.what-next-stepper{
+    background: linear-gradient(166.25deg, rgba(249, 233, 213, 0.4) 2.27%, rgba(253, 215, 214, 0.49) 98.33%);
+    border-radius: 12px;
+    margin-top: 2rem;
+    p.next-step{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-transform: uppercase;
+        color: #232323;
+        margin-top: 2rem;
+    }
+    .quote-text{
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #000000;
+        margin-top: 0.6rem;
+    }
+    .quote-status.completed{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #388E3C;
+        margin-top: 0.6rem;
+    }
+    .in-progress{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-top: 0.6rem;
+        color: #007BFF;
+    }
+    .pending{
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        margin-top: 0.6rem;
+        color: #232323
+    }
+    .completed-step,.in-progress-step,.pending-step{
+        position: relative;
+        flex: 1 !important;
+       
+    }
+    .completed-step::after{
+        content: '';
+        position: absolute;
+        background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+        height: 4px;
+        top: 20px;
+        left: 40px;
+        border-radius: 39px;
+        z-index: 9;
+        width: -webkit-fill-available;
+        margin: 0rem 0.5rem;
+        /* width: 100%; */
+    }
+
+    .in-progress-step::after{
+        content: '';
+        position: absolute;
+        background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 50%, #FFD5D7 50%);
+        height: 4px;
+        top: 20px;
+        left: 40px;
+        border-radius: 39px;
+        z-index: 9;
+        width: -webkit-fill-available;
+        margin: 0rem 0.5rem;
+        /* width: 100%; */
+    }
+    .pending-step::after{
+        content: '';
+        position: absolute;
+        background: linear-gradient(90deg, #FFD5D7 0%, #FFD5D7 100%);
+        height: 4px;
+        top: 20px;
+        left: 40px;
+        border-radius: 39px;
+        z-index: 9;
+        width: -webkit-fill-available;
+        margin: 0rem 0.5rem;
+        /* width: 100%; */
+    }
+}
+.refer-and-earn-sec{
+    background: linear-gradient(90deg, #FDF3E4 0%, #D8D2FF 100%);
+    border-radius: 14px;
+    margin-top: 2rem;
+    .coin-img img{
+        width: 158px;
+    }
+
+    h1{
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #2D2D2D;
+    }
+    .clip-btn{
+        border: 1px dashed grey;
+        
+        height: 64px;
+    }
+    button.get-code{
+        height: 64px;
+        gap: 10px;
+        border-width: 0px;
+        padding: 10px 20px;
+        padding-right: 30px;
+        background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+        margin-top: 1.8rem;
+        clip-path: polygon(0 0, 91% 0, 88% 100%, 0% 100%);
+        position: relative;
+    }
+    /* button.get-code::after{
+        content: '80';
+        position: absolute;
+        height: 100%;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        border: 4px dashed grey;
+    } */
+}

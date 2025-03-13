@@ -1,0 +1,1009 @@
+@media (max-width:779px) {
+    body header {
+        display: none !important;
+    }
+
+    body main.container {
+        padding: 0;
+    }
+
+    body main.container div.p-4.border.rounded-4.bg-white {
+        padding: 0px !important;
+    }
+
+    .get-quotes {
+        display: none;
+    }
+
+    .workmen-compensation-text h3 {
+        font-size: 24px;
+        margin-bottom: 0px !important;
+    }
+
+    .workmen-compensation-text p {
+        font-size: 14px;
+    }
+
+    .stepper-div .steps {
+        display: flex;
+    }
+
+    .step-number {
+        width: 26px;
+        height: 26px;
+        margin-right: 0px;
+    }
+
+    .active .step-number {
+        font-size: 14px;
+        border: 1px solid var(--orange-primary-color);
+    }
+
+    .stepper-div .steps .step {
+        display: flex;
+        flex-direction: column;
+        width: 82px;
+    }
+
+    .stepper-div .steps .step.active .step-text {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .stepper-div .steps .step .step-text {
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .stepper-div .steps .step .step-text {
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .disabled .step-number {
+        width: 26px;
+        height: 26px;
+        margin-right: 0px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .stepper-div.mt-4.ms-2 {
+        margin: 0px !important;
+    }
+
+    .step-line {
+        position: absolute;
+        left: 56px;
+        top: -2px !important;
+        bottom: -10px !important;
+        rotate: 90deg;
+        width: 1px;
+        height: 30px !important;
+        left: 71px;
+    }
+
+    .stepper-timer {
+        display: none;
+    }
+
+    .step {
+        padding-bottom: 0px !important;
+    }
+
+    .step:last-child {
+        padding-bottom: 0px !important;
+    }
+
+    .content.py-4.pb-0.pe-2 {
+        padding: 16px !important;
+    }
+
+    .business-details .business-detail-title {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .step-content.business-details form div.my-4.mb-0 {
+        margin: 0px !important;
+    }
+
+    .business-details form label {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .business-details form input,
+    .business-details form select {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .business-details form input::placeholder,
+    .business-details form select {
+        font-size: 12px;
+    }
+
+    .company-name-section div.my-4 {
+        margin-top: 10px !important;
+    }
+
+    .info-icon {
+        width: 12px;
+        height: 12px;
+        margin-right: 8px;
+    }
+
+    .btn-total-grp .btn {
+        font-size: 10px;
+    }
+
+    .btn.add-more-btn {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .btn.add-more-btn img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .continue-btn {
+        width: 175px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .continue-btn-final {
+        width: 175px;
+        height: 40px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .mobile-progress-bar h5 {
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 16px;
+        text-align: left;
+        color: #EFA94A;
+    }
+
+    .mobile-progress-bar p {
+        color: #232323;
+        font-family: Roboto;
+        font-size: 18px;
+    }
+
+    .work-footer p {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.75px;
+        text-align: center;
+
+    }
+
+    .mb-pe-0 {
+        padding-right: 0px;
+    }
+
+    .claim-details-ques p {
+        font-size: 14px;
+    }
+
+    .form-check-input[type=radio] {
+        width: 15px;
+        height: 15px;
+    }
+
+    .form-check.form-check-inline .form-check-label {
+        font-size: 14px;
+        line-height: 0;
+    }
+
+    .back-btn-img img {
+        width: 80%;
+    }
+
+    .get-policy.business-details .business-detail-title {
+        font-size: 18px;
+        justify-content: space-between;
+    }
+
+    .company-name-section .input-group input {
+        width: 100%;
+        border: 0px;
+    }
+
+    .company-name-section .input-group input[readonly] {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.41px;
+        text-align: left;
+        height: 32px;
+        padding-left: 0px;
+    }
+
+    .company-name-section .input-group input {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+        text-align: left;
+        height: 32px !important;
+        padding-left: 0px;
+    }
+
+    .claim-details-ques ol li div {
+        justify-content: space-between;
+    }
+
+    .buy-policy.business-details {
+        padding: 0px !important;
+    }
+
+    .upload-file-section span.fw-bold.fs-5 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+
+    .upload-file-section span.text-orange b {
+        font-size: 14px;
+        font-weight: 500 !important;
+    }
+
+    .thank-you-thumbs-up {
+        width: 70% !important;
+    }
+
+    .thank-you-section.px-5 {
+        padding: 0 !important;
+    }
+
+    .thank-you-section .thank-you-text {
+        font-size: 24px;
+        text-align: center;
+        line-height: 40px;
+        margin-top: 1.5rem;
+    }
+
+    .thank-you-section .thank-you-para {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 0px !important;
+        color: #232323;
+    }
+
+    .thank-you-btns .btn.btn-dark {
+        width: 158px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 1px;
+        ;
+    }
+
+    .thank-you-btns .btn.btn-outline {
+        width: 158px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .thank-you-btns .btn.btn-outline img {
+        width: 19%;
+    }
+
+    .thank-you-form label {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.41px;
+        margin-top: 0px;
+    }
+
+    .thank-you-form input {
+        padding: 24px;
+        min-width: auto;
+        height: 40px;
+        border: 1px solid #A09F9F;
+        font-size: 14px;
+    }
+
+    .thank-you-form input::placeholder {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .thank-you-form .btn.btn-dark {
+        font-size: 14px;
+        font-weight: 600;
+        height: 40px;
+        width: 68px;
+        line-height: 1px;
+        text-align: center;
+        padding-left: 20px;
+    }
+
+    .thank-you-form .input-group input {
+        min-width: auto;
+    }
+
+    .thank-you-disclaimer {
+        margin: 0 !important;
+    }
+
+    .thank-you-disclaimer p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 23px;
+        text-align: left;
+    }
+
+    .thank-you-like-card .toast {
+        min-width: 343px;
+        max-height: 190px;
+        padding: 20px 16px 0px 16px;
+        border-radius: 16px;
+    }
+
+    .thank-you-like-card .toast h3 {
+        font-size: 16px;
+    }
+
+    .thank-you-like-card .toast p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    /* .thank-you-like-card .toast .toast-body .mt-3.d-flex.align-items-center.justify-content-between.gap-3{
+        margin-top: 0px !important;
+    } */
+    .thank-you-like-card .toast .toast-body .mt-3.d-flex.align-items-center.justify-content-between.gap-3 img {
+        width: 80%;
+    }
+
+    .mobile-header {
+        padding-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .mobile-header .headerContact .user-btn {
+        min-width: auto;
+        height: 34px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .mobile-header .headerContact img {
+        width: 26px;
+        height: 26px;
+    }
+
+    /* insurance comparison */
+    .workmen-quote-section .quote-title {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .workmen-quote-section .quote-para {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 0px;
+    }
+
+    .go-back-btn {
+        display: none !important;
+    }
+
+    .comparison-card {
+        overflow-x: auto;
+    }
+
+    .comparison-card .mb-scroll-width {
+        width: 1366px;
+    }
+
+    .comparison-card::-webkit-scrollbar {
+        display: none;
+    }
+
+    .comparison-card .mb-scroll-width .premium-card {
+        margin: 1rem 0 !important;
+    }
+
+    /* end */
+
+    /* Workmen Compensation Quote start */
+    .workmen-quote-section .quote-title {
+        line-height: 32px;
+        margin-bottom: 1rem;
+    }
+
+    .select-tags.d-flex {
+        overflow-x: scroll;
+        padding-bottom: 10px !important;
+    }
+
+    .select-tags.d-flex::-webkit-scrollbar {
+        display: none;
+    }
+
+    .brand-selection {
+        flex-direction: column;
+        justify-content: left !important;
+        align-items: start !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .brand-selection>div {
+        flex-wrap: wrap;
+    }
+
+    .brand-selection .d-flex.align-items-center.gap-3 .rounded-pill {
+        width: 154px;
+        height: 45px;
+    }
+
+    /* .premium-card{
+        padding-right: 1.5rem !important;
+    } */
+    .premium-card .company-name {
+        flex-wrap: wrap;
+        gap: .25rem !important;
+    }
+
+    .premium-card .company-name h6 {
+        font-size: 18px;
+    }
+
+    .premium-card .money-text h1 {
+        font-size: 20px;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .premium-card .check-text h6 {
+        font-size: 14px;
+    }
+
+    .premium-card .check-text {
+        gap: 0.5rem !important;
+    }
+
+    .premium-card .check-option {
+        gap: 0.5rem !important;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .premium-card .check-text img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .term-condition {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .term-condition .view-more a {
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .term-condition label {
+        font-size: 14px;
+    }
+
+    .term-condition .term-compare {
+        width: 100%;
+    }
+
+    .check-terms-condition label {
+        font-size: 14px;
+        color: #616888;
+    }
+
+    /* end */
+
+    /* hidden section */
+    .add-more-section .list-group li {
+        font-size: 16px;
+        height: 50px;
+    }
+
+    .add-more-section {
+        margin-bottom: 2rem;
+    }
+
+    .add-more-section .list-group.list-filled .list-group-item {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 0.5rem;
+    }
+
+    .add-more-section.add-sub-category ul li span {
+        font-size: 14px;
+        height: auto;
+        padding: 5px 12px;
+        line-height: 18px;
+    }
+
+    /* end */
+    .form-check-input:checked[type=radio] {
+        background-size: cover;
+        width: 80%;
+    }
+
+}
+
+@media (min-width:1600px) and (max-width:1800px) {
+    .container {
+        max-width: 1440px !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1900px) {
+
+    .workmen-compensation-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .business-details form input,
+    .business-details form select {
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .business-details form input::placeholder {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .business-details form label {
+        font-size: 16px;
+        margin-bottom: 0.8rem;
+        margin-top: 0px;
+    }
+
+    .business-details .business-detail-title {
+        font-size: 21px;
+    }
+
+    .step-content.business-details form>div.my-4.mb-0 {
+        margin-top: 5px !important;
+    }
+
+    .company-name-section div.my-4:last-child {
+        margin-top: 5px !important;
+    }
+
+    .btn.add-more-btn {
+        font-size: 14px;
+    }
+
+    .btn.add-more-btn img {
+        width: 15%;
+    }
+
+    .btn-total-grp .btn {
+        font-size: 14px;
+    }
+
+    .continue-btn {
+        width: 140px;
+        height: 40px;
+        border-radius: 60px;
+        opacity: 0px;
+        background-color: #223A74;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .continue-btn-final {
+        width: 140px;
+        height: 40px;
+        border-radius: 60px;
+        opacity: 0px;
+        background-color: #223A74;
+        color: #fff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .company-name-section .col-2.col-md-1.ps-md-0.text-end button img {
+        height: 46px;
+    }
+
+    .workmen-compensation-text p {
+        font-size: 14px;
+    }
+
+    .workmen-compensation-text h3 {
+        margin-bottom: 5px !important;
+    }
+
+    .step-number {
+        width: 30px;
+        height: 30px;
+        font-size: 14px !important;
+        font-weight: 600;
+    }
+
+    .stepper-div .steps .step.active .step-text {
+        font-size: 20px;
+    }
+
+    .step {
+        padding-bottom: 30px !important;
+    }
+
+    .stepper-div .steps .step .step-text {
+        font-size: 18px;
+    }
+
+    .step-line {
+        position: absolute;
+        left: 14px;
+        top: 35px !important;
+        bottom: -20px !important;
+        width: 2px;
+        height: 20px !important;
+    }
+
+    .company-name-section .info-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .step:last-child {
+        padding-bottom: 18px !important;
+    }
+
+    .navPad {
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+
+    .headerContact p {
+        font-size: 16px;
+    }
+
+    .circular-chart {
+        max-width: 60%;
+    }
+
+    .claim-details-ques p {
+        font-size: 16px;
+    }
+
+    .form-check.form-check-inline .form-check-label {
+        font-size: 14px;
+    }
+
+    .claim-details-ques .row.align-items-center.my-3 {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .claim-details-ques.my-4 {
+        margin-top: 5px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .business-details .claims-form .business-detail-title {
+        margin-bottom: 5px !important;
+    }
+
+    .back-btn-img.btn.p-0 {
+        width: 16%;
+    }
+
+    .get-policy.business-details .business-detail-title {
+        font-size: 20px;
+    }
+
+    .get-policy.business-details form input,
+    .get-policy.business-details form select {
+        height: 48px;
+    }
+
+    .buy-policy.business-details.px-5 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .upload-file-section span.fw-bold.fs-5 {
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+
+    .upload-file-section span.text-orange b {
+        font-size: 14px !important;
+        font-weight: 500 !important;
+    }
+
+    .buy-policy.business-details.px-5 .row.g-2.g-md-4 {
+        --bs-gutter-y: 1rem;
+    }
+
+    .headerNotice p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .work-footer p {
+        font-size: 16px;
+    }
+
+    /*  */
+    .workmen-quote-section .quote-title {
+        font-size: 38px;
+    }
+
+    .workmen-quote-section .quote-para {
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    .select-tags select {
+        font-size: 14px;
+    }
+
+    .select-tags select {
+        height: 42px;
+        min-width: 120px;
+        font-weight: 500;
+    }
+
+    .brand-selection {
+        padding: 10px 15px !important;
+    }
+
+    .brand-selection .d-flex.align-items-center.gap-3 .rounded-pill {
+        width: 148px;
+        height: 38px;
+    }
+
+    .brand-selection .btn {
+        height: 35px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .premium-card .company-name h6 {
+        font-size: 20px;
+    }
+
+    .premium-card .money-text h1 {
+        font-size: 30px !important;
+        text-align: center !important;
+    }
+
+    .premium-card .premium-text h6 {
+        font-size: 20px;
+    }
+
+    .premium-card .check-text h6 {
+        font-size: 14px;
+    }
+
+    .check-option {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .premium-card .text-discount {
+        font-size: 14px;
+    }
+
+    .premium-card {
+        padding: 1.5rem !important;
+    }
+
+    .premium-card .check-text img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .view-more a {
+        font-size: 14px;
+    }
+
+    .headerContact .contact-btn {
+        min-width: 120px;
+        height: 38px;
+        font-size: 16px;
+        line-height: 5px;
+    }
+
+    .headerContact .user-btn {
+        min-width: 130px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .headerContact img {
+        width: 26px;
+        height: 26px;
+    }
+
+    .LanguageOption {
+        font-size: 16px;
+    }
+
+    .check-terms-condition label {
+        font-size: 14px;
+    }
+
+    .comparison-card .mb-scroll-width {
+        --bs-gutter-x: 1.2rem;
+    }
+
+    .premium-card .brand-logo img {
+        width: 120px;
+        height: 38px;
+    }
+
+    .check-text {
+        margin-top: 0px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .premium-card div.my-3.mb-4 {
+        margin-top: 0 !important;
+        margin-bottom: 10px !important;
+    }
+
+    .alert-pop .alert-pop-content h3 {
+        font-size: 16px;
+    }
+
+    .alert-pop .alert-pop-content h2 {
+        font-size: 16px;
+    }
+
+    .alert-pop {
+        width: 225px;
+        height: 130px;
+    }
+
+    .alert-pop .alert-pop-content h4 {
+        font-size: 14px;
+    }
+
+    .alert-pop .alert-pop-content h5 {
+        font-size: 12px;
+    }
+
+    /*  */
+
+    /* thank you responsive */
+    .thank-you-section .thank-you-text {
+        font-size: 54px;
+        margin-top: 1.5rem;
+    }
+
+    .thank-you-section .thank-you-para {
+        font-size: 18px;
+        margin-top: 0px !important;
+    }
+
+    .thank-you-btns .btn.btn-dark {
+        width: 200px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 0px;
+    }
+
+    .thank-you-btns .btn.btn-outline {
+        width: 200px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 0px;
+    }
+
+    .thank-you-btns {
+        gap: 3.5rem !important;
+    }
+
+    .thank-you-form label {
+        font-size: 16px;
+    }
+
+    .thank-you-form input {
+        height: 48px;
+        min-width: 340px;
+        font-size: 14px;
+    }
+
+    .thank-you-form input::placeholder {
+        font-size: 14px;
+    }
+
+    .thank-you-form .btn.btn-dark {
+        width: 110px;
+        height: 48px;
+        font-size: 14px;
+        line-height: 0px;
+    }
+
+    .thank-you-form {
+        margin-bottom: 0px !important;
+    }
+
+    .thank-you-form .input-group input {
+        min-width: 224px;
+    }
+
+    .thank-you-form div.row.g-3.my-3 {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+
+    .thank-you-disclaimer p {
+        font-size: 14px;
+    }
+
+    .thank-you-like-card .toast {
+        min-width: 360px;
+        height: 170px;
+    }
+
+    .thank-you-like-card .toast h3 {
+        font-size: 16px;
+    }
+
+    .thank-you-like-card .toast p {
+        font-size: 14px;
+    }
+
+    .thank-you-like-card a img {
+        width: 28px;
+    }
+
+    .thank-you-like-card .btn-clos.btn img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .thank-you-like-card {
+        margin-bottom: 18px !important;
+    }
+
+    /* end */
+    .enter-other-section input {
+        height: 48px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .enter-other-section input::placeholder {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .add-more-section .list-group li {
+        font-size: 14px;
+        height: 48px;
+    }
+
+    .add-more-section.add-sub-category ul li span {
+        font-size: 14px;
+    }
+}

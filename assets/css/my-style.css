@@ -1,0 +1,828 @@
+@media (min-width: 1900px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1650px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .col-3xl-4 {
+        flex: 0 0 auto;
+        width: 29.5%;
+    }
+}
+
+@media (min-width: 1900px) {
+    .col-3xl-8 {
+        flex: 0 0 auto;
+        width: 70.5%;
+    }
+}
+
+html {
+    height: 100%;
+}
+
+.workmen-body {
+    background-image: linear-gradient(to left, #FDF5EB, #F2F6FF);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+footer {
+    margin-top: auto !important;
+}
+
+.stepper-sidebar {
+    /* background-image: linear-gradient(to right, #F0EAE2 , #F3E1E0); */
+    background: linear-gradient(166.25deg, rgba(249, 233, 213, 0.4) 2.27%, rgba(253, 215, 214, 0.49) 98.33%);
+
+}
+
+main {
+    margin-bottom: 1.5rem;
+}
+
+.get-quotes {
+    border: 0px;
+    border-bottom: 2px solid #9BC8F5;
+    border-style: dashed;
+}
+
+.get-quotes p {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25.78px;
+    color: #223A74;
+}
+
+.workmen-compensation-text h3 {
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 42.19px;
+    text-align: left;
+    color: #232323;
+}
+
+.workmen-compensation-text p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #232323;
+}
+
+.stepper-div .steps .step.active .step-text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left;
+    color: #232323;
+}
+
+.stepper-div .steps .step .step-text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    color: #232323;
+    margin-left: 1rem;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    padding-bottom: 55px !important;
+    position: relative;
+}
+
+.step:last-child {
+    padding-bottom: 30px !important;
+}
+
+.step-line {
+    position: absolute;
+    left: 18px;
+    top: 49px !important;
+    bottom: -20px !important;
+    width: 3px;
+    height: 38px !important;
+    background-color: #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.stepper-timer {
+    border: 0px;
+    border-top: 2px solid #9BC8F5;
+    border-style: dashed;
+}
+
+/* doughnut */
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.single-chart {
+    width: 70%;
+    justify-content: space-around;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 250px;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3.8;
+}
+
+.circle {
+    fill: none;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+}
+
+@keyframes progress {
+    0% {
+        stroke-dasharray: 0 100;
+    }
+}
+
+.circular-chart.orange .circle {
+    stroke: #FF5E63;
+}
+
+
+.percentage {
+    fill: #232323;
+    font-size: 8px;
+    text-anchor: middle;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.percentage-completed {
+    fill: #232323;
+    font-size: 3.5px;
+    text-anchor: middle;
+    font-family: Roboto;
+}
+
+/* doughnut end */
+.completed .step-number {
+    background-image: linear-gradient(to right, #EFA94A, #FF5E63) !important;
+}
+
+.completed .step-line {
+    background-color: #FF7E36;
+}
+
+/* business details section */
+.business-details .business-detail-title {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32.81px;
+    text-align: left;
+    color: #223A74;
+}
+
+.business-details form label {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+    margin-bottom: 1.2rem;
+    margin-top: 0.3rem;
+}
+
+.business-details form label span {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+.business-details form input,
+.business-details form select {
+    height: 64px;
+}
+
+.business-details form select,
+.business-details form input {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+}
+
+.business-details form input::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    color: #A09F9F;
+}
+
+.continue-btn {
+    width: 198px;
+    height: 56px;
+    border-radius: 60px;
+    opacity: 0px;
+    background-color: #223A74;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.78px;
+}
+
+.btn.add-more-btn {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    color: #223A74;
+}
+
+.btn-total-grp .btn {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color: #232323;
+    background-color: #FFE9D4;
+    height: 37px;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+    opacity: 0px;
+}
+
+.add-more-section .list-group li {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    color: #232323;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.enter-other-section label {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: left;
+    color: #000000;
+}
+
+.enter-other-section input {
+    height: 64px;
+    padding: 16px 12px 16px 12px;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.enter-other-section input::placeholder {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+}
+
+.add-more-section.add-sub-category ul li span {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: center;
+    background-color: #FFF5ED;
+    height: 38px;
+    padding: 12px 15px;
+    gap: 8px;
+    border-radius: 60px;
+    border: 1px;
+    border-color: #FFCFA8;
+    opacity: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.form-check-input[type=radio] {
+    width: 18px;
+    height: 18px;
+}
+
+.form-check-input:checked[type=radio] {
+    background-image: url(../images/workmen/radio-button.svg);
+    background-size: auto;
+
+}
+
+.form-check-input:checked {
+    border: 0px;
+}
+
+.form-check-input[type=radio] {
+    border-color: #223A74;
+    border-width: 1.5px;
+    background-color: #fff;
+}
+
+/* .form-check-input:checked {
+    background-color: #223A74;
+    border-color: #223A74;
+} */
+
+.form-check.form-check-inline .form-check-label {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #232323;
+}
+
+.claim-details-ques p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    color: #232323;
+}
+
+.get-policy.business-details form input,
+.get-policy.business-details form select {
+    height: 54px;
+}
+
+.get-policy.business-details .business-detail-title {
+    font-size: 24px;
+}
+
+.text-orange {
+    color: #FF7E36;
+}
+
+.workmen-quote-section .quote-title {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: center;
+}
+
+.workmen-quote-section .quote-title span {
+    background-image: linear-gradient(to right, #EFA94A, #FF5E63);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.workmen-quote-section .quote-para {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.select-tags select {
+    height: 48px;
+    padding: 8px 16px 8px 16px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-color: #A09F9F;
+    opacity: 100%;
+    min-width: 140px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.75px;
+    text-align: left;
+    color: #223A74;
+}
+
+.brand-selection {
+    background-color: #ECF2FF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.75px;
+    text-align: left;
+    color: #616888;
+}
+
+.brand-selection .btn {
+    color: #232323;
+    height: 40px;
+    padding: 6px 20px;
+    border-radius: 60px;
+    border: 1px solid;
+    border-color: #223A74;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.premium-card .company-name h6 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.13px;
+    text-align: left;
+    color: #000;
+}
+
+.premium-card .premium-text h6 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: center;
+    background-image: linear-gradient(to right, #EFA94A, #FF5E63);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.premium-card .money-text h1 {
+    color: #223A74;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56.25px;
+    text-align: left;
+}
+
+.premium-card .check-text h6 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+    color: #000;
+}
+
+.view-more a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    color: #223A74;
+}
+
+.term-condition input[type="checkbox"]:checked {
+    height: 16px;
+    width: 16px;
+    background-color: #223A74;
+    border-color: #223A74;
+}
+
+.term-condition label {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.text-green {
+    color: #03B90B;
+}
+
+.premium-card .text-discount {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: center;
+}
+
+.premium-card {
+    background: linear-gradient(to right, white, white) padding-box, linear-gradient(to right, #FF7E36, #D9D9D9) border-box;
+    border: 1.5px solid #FF7E36;
+    /* border-right: 1.5px solid #D9D9D9; */
+    background-image: linear-gradient(to right, #F9E9D566, #FDD7D67D);
+}
+
+.check-terms-condition input[type="checkbox"]:checked {
+    height: 16px;
+    width: 16px;
+    background-color: #223A74;
+    border-color: #223A74;
+}
+
+.check-terms-condition label {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.headerContact .contact-btn {
+    min-width: 126px;
+    height: 48px;
+    padding: 16px 12px 16px 12px;
+    border-radius: 50px;
+    background: linear-gradient(to right, white, white) padding-box, linear-gradient(to right, #FF7E36, #D9D9D9) border-box;
+    border: 1.5px solid #FF7E36;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    color: #232323;
+}
+
+.headerContact .user-btn {
+    min-width: 145px;
+    height: 48px;
+    padding: 16px 12px 16px 12px;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1.5px solid #223A74;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: center;
+    color: #232323;
+}
+
+.premium-card .brand-logo img {
+    width: 161px;
+    height: 55px;
+    object-fit: contain;
+}
+
+.go-back-btn {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+    text-align: left;
+    color: #2D2D2D;
+}
+
+.alert-pop {
+    background-image: linear-gradient(to right, #EFA94ACC, #FF5E63CC);
+    width: 263px;
+    height: 141px;
+    gap: 0px;
+    border-radius: 22px 0px 0px 22px;
+    opacity: 0px;
+}
+
+.alert-pop .alert-pop-content h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: center;
+    color: #fff;
+}
+
+.alert-pop .alert-pop-content h4 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.75px;
+    text-align: left;
+    color: #fff;
+}
+
+.alert-pop .alert-pop-content h2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+    color: #fff;
+}
+
+.alert-pop .alert-pop-content h5 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+    color: #fff;
+}
+
+.thank-you-section .thank-you-text {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: left;
+    color: #232323;
+}
+
+.thank-you-section .thank-you-para {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: left;
+    color: #212427CC;
+}
+
+.thank-you-btns .btn.btn-dark {
+    width: 311px;
+    height: 74px;
+    padding: 24px;
+    gap: 10px;
+    border-radius: 60px;
+    background-color: #223A74;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 25.78px;
+    text-align: center;
+    color: #fff;
+}
+
+.thank-you-btns .btn.btn-outline {
+    width: 248px;
+    height: 74px;
+    padding: 24px;
+    border-radius: 60px;
+    border-width: 0.5px;
+    border-color: #223A74;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.44px;
+    text-align: center;
+    color: #223A74;
+}
+
+.thank-you-form label {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.78px;
+    text-align: left;
+    color: #212427CC;
+}
+
+.thank-you-form input {
+    height: 64px;
+    padding: 22px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #223A7433;
+    min-width: 493px;
+}
+
+.thank-you-form input::placeholder {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    color: #0000004D;
+}
+
+.thank-you-form .btn.btn-dark {
+    width: 129px;
+    height: 64px;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: #223A74;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+}
+
+.thank-you-form .input-group input {
+    min-width: 372px;
+}
+
+.thank-you-body {
+    background-color: #FFF9F5;
+}
+
+.thank-you-thumbs-up img {
+    text-align: center;
+    border-bottom: 10px solid #EFA94A;
+    border-color: #EFA94A;
+    border-width: 10px;
+}
+
+.thank-you-disclaimer p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    color: #666666;
+}
+
+.thank-you-like-card .toast {
+    min-width: 469px;
+    height: 207px;
+    padding: 20px 16px 20px 16px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 6px 0px #0000001A;
+    background-color: #fff;
+}
+
+.thank-you-like-card .toast h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #18181B;
+}
+
+.thank-you-like-card .toast p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #52525B;
+}
+
+/* datepicker css */
+.daterangepicker td.start-date.end-date {
+    border-radius: 100px !important;
+    font-family: Roboto !important;
+}
+
+.daterangepicker td.active {
+    background-color: #FF7E36 !important;
+}
+
+.daterangepicker .calendar-table th.prev.available,
+.daterangepicker .calendar-table th.next.available {
+    box-shadow: 0px 0.9px 4.48px -0.9px #110C221A !important;
+}
+
+.daterangepicker .applyBtn.btn.btn-sm.btn-primary {
+    min-width: 113.34px;
+    height: 32.33px;
+    padding: 7.16px 12.54px 7.16px 12.54px;
+    border-radius: 5.37px;
+    border: 0.9px;
+    box-shadow: 0px 0.9px 1.79px 0px #25114F66;
+    border: 0.9px solid;
+    background-image: linear-gradient(to right, #11275c, #223A74);
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* end */
+
+
+
+@media (max-width:1000px) {
+    .illustrator-sec img:first-child {
+        height: 200px;
+    }
+
+    .illustrator-sec img {
+        height: 200px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .illustrator-sec img {
+        height: 100px;
+    }
+}
