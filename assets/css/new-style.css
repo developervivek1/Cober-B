@@ -382,9 +382,10 @@ header{
     button.get-code{
         height: 64px;
         gap: 10px;
+        min-width: 160px;
         border-width: 0px;
         padding: 10px 20px;
-        padding-right: 30px;
+        padding-right: 55px;
         background: linear-gradient(90deg, #EFA94A 0%, #FF5E63 100%);
         font-family: Roboto;
         font-weight: 600;
@@ -393,16 +394,25 @@ header{
         letter-spacing: 0%;
         color: #FFFFFF;
         margin-top: 1.8rem;
-        clip-path: polygon(0 0, 91% 0, 88% 100%, 0% 100%);
         position: relative;
     }
-    /* button.get-code::after{
+    button.get-code::after{
+        min-width: 60px;
         content: '80';
         position: absolute;
         height: 100%;
         top: 0;
         right: 0;
         z-index: 999;
-        border: 4px dashed grey;
-    } */
+        background-color: #fff;
+        color: #232323;
+        border: 4px dashed #232323;
+        clip-path: polygon(32% 0, 100% 0%, 100% 100%, 18% 100%);
+        font-family: Roboto;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        padding: 16px;
+    }
 }
