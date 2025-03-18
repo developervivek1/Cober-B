@@ -416,7 +416,25 @@ header{
         padding: 16px;
     }
 }
-
+.reward-img{
+    h6{
+        font-family: Roboto;
+        font-weight: 900;
+        font-size: 52px;
+        line-height: 42px;
+        letter-spacing: 0%;
+        color: #2D2D2D;
+        margin-bottom: 0;
+    }
+    span{
+        font-family: Roboto;
+        font-weight: 800;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #2D2D2D;
+    }
+}
 
 /* responsive css */
 
